@@ -13,7 +13,8 @@ const getBooks = async() => {
 }
 
 const Home = async () => {
-  const books = await getBooks()
+  const books = await getBooks();
+  
   return (
     <main>
       <nav className="flex justify-between">
